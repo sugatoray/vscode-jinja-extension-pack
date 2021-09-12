@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/sugatoray/vscode-jinja-extension-pack/issues",
   },
-  "icon": "icon.png",
+  "icon": "jinja2-icon.png",
   "galleryBanner": {
     "color": "#44bcd8",
     "theme": "dark",

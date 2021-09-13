@@ -2,7 +2,7 @@
   "name": "jinja-extension-pack",
   "displayName": "Jinja Extension Pack",
   "description": "Popular Visual Studio Code extensions for Python and Jinja",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "sugatoray",
   "author": {
     "name": "Sugato Ray",
@@ -41,5 +41,8 @@
   ],
   "scripts": {
     "deploy": "vsce publish --yarn"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0"
   }
 }

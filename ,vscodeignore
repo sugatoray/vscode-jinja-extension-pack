@@ -3,3 +3,7 @@
 Makefile
 .gitignore
 *.vsix
+
+**/*.ts
+**/tsconfig.json
+!file.ts

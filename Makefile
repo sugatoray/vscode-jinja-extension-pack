@@ -1,16 +1,17 @@
 # source:
 #  - https://code.visualstudio.com/api/working-with-extensions/publishing-extension
-#  -
+#  - https://github.com/microsoft/vscode-vsce/issues/11
+#  - https://dev.azure.com/sugatoray/_usersSettings/tokens
 
-.PHONY build publish
+.PHONY: build publish
 
 build:
-	@echo "Packaging...\n"
-	vcse package
+		@echo "\n🔥⚙️ Packaging... ⏳\n"
+		vsce package
 
 publish:
-	@echo "Publishing...\n"
-	vcse publish
+		@echo "\n📘📄 Publishing... ⏳\n"
+		vsce publish
 
 release: build publish
-	@echo "Releasing...\n"
+		@echo "\n✨ Releasing... ⏳\n"

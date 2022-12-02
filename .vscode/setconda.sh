@@ -11,7 +11,7 @@ alias baseconda='conda activate base'
 alias xmake="make -f ./.vscode/Makefile"
 
 PROJECT_NAME="vscode-jinja-extension-pack"
-PROJECT_CONDA_ENV="pytorch_env"
+PROJECT_CONDA_ENV="fav_env"
 
 # conda activate $PROJECT_CONDA_ENV
 formatsetconda $PROJECT_NAME $PROJECT_CONDA_ENV || conda activate $PROJECT_CONDA_ENV

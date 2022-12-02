@@ -1,8 +1,11 @@
 .vscode/
 .github/
+.artifacts/
 Makefile
 .gitignore
 *.vsix
+.DS_Store
+docs/
 
 **/*.ts
 **/tsconfig.json

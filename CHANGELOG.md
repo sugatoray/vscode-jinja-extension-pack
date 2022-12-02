@@ -1,3 +1,9 @@
+# Changelog
+
+## 1.0.1
+
+- Minor updates to `README.md` and other repository files.
+
 ## 1.0.0
 
 - Initial release with complete list of extensions.

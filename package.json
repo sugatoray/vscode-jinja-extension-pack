@@ -2,7 +2,7 @@
   "name": "jinja-extension-pack",
   "displayName": "Jinja Extension Pack",
   "description": "Popular Visual Studio Code extensions for Python and Jinja",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "sugatoray",
   "author": {
     "name": "Sugato Ray",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/sugatoray/vscode-jinja-extension-pack/issues"
   },
-  "icon": "jinja2-icon.png",
+  "icon": "icon.png",
   "galleryBanner": {
     "color": "#44bcd8",
     "theme": "dark"

@@ -56,7 +56,14 @@ jobs:
       # - uses: lannonbr/vsce-action@3.0.0
       - name: Install VSCE
         run: npm install -g vsce
-      - name: Publish Extension
+      - name: Install OVSX
+        run: npm install -g ovsx
+      - name: Publish Extension - VSCE (to VS Marketplace)
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: vsce publish -p $VSCE_PAT
+      - name: Publish Extension - OVSX (to Open-VSX.org)
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: ovsx publish -p $OVSX_PAT
+        

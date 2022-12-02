@@ -58,9 +58,12 @@ pkg.build:
 
 pkg.publish:
 	@echo "\n📘📄 Publishing... ⏳\n"
-	vsce publish
+	# Publish to VS Code Marketplace: using vsce
+	vsce publish -p ${VSCE_PAT}
+	# Publish to open-vsx.org: using ovsx
+	ovsx publish -p ${OVSX_PAT}
 
-pkg.release: pkg.build vsix.move pkg.publish vsix.clear
+pkg.release: pkg.build vsix.move pkg.publish vsix.move vsix.clear
 	@echo "\n✨ Releasing... ⏳\n"
 
 vsce.open:
@@ -78,3 +81,8 @@ vsce.metadata:
 vsce.extn:
 	@echo "\n✨ Open VS Code Extension Marketplace in Browser... ⏳\n"
 	$(PYTHON) -c "import webbrowser; webbrowser.open('$(VSCE_MANAGEMENT_URL)')"
+
+.PHONY: test.envar
+test.envar:
+	@echo "\nTesting Environment Variables... \n"
+	echo "$(HOME)"

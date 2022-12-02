@@ -44,7 +44,7 @@ help:
 	@echo "\n ...: How To Manage Relevant Environment Variables :... \n"
 	# 1. Update export VAR="value" lines in ~/.secrets/manage_secrets.sh file.
 	# 2. Add the following line to your ~/.bashrc or ~/.zshrc file:
-	#    . ./~.secrets/manage_secrets.sh
+	#    . ~/.secrets/manage_secrets.sh
 	# 3. Open a new shell (bash, zsh, etc.)
 	# 
 

@@ -40,7 +40,7 @@ on:
 #   push:
 #     branches:
 #       - master
-name: Deploy VSCode Extension
+name: Publish VSCode Extension
 jobs:
   deploy:
     runs-on: ubuntu-latest

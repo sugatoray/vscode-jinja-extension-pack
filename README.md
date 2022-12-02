@@ -27,6 +27,15 @@ Open a PR and I'd be happy to take a look.
 
 **Enjoy!** 🎁 ✨ 🎉
 
+## Installation
+
+The easiest way to install is directly from within VS Code (search extensions for `sugatoray.jinja-extension-pack`).
+
+You can also install from the [VS Code Extension Marketplace][#vsce-marketplace-url], the [Open VSX Registry][#ovsx-registry] or directly from a [VISX extension file][#vsix-install].
+
+[#ovsx-registry]: https://open-vsx.org/extension/sugatoray/jinja-extension-pack
+[#vsix-install]: https://marketplace.visualstudio.com/items?itemName=sugatoray.vscode-markdown-extension-pack#visx-install
+
 <!---
 
 ## List of Emojis Used

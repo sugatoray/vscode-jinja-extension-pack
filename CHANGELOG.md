@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Update the `README.md` with installation information.
+
 ## 1.0.1
 
 - Minor updates to `README.md` and other repository files.

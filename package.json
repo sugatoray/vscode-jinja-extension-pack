@@ -37,7 +37,8 @@
     "samuelcolvin.jinjahtml",
     "VisualStudioExptTeam.vscodeintellicode",
     "njpwerner.autodocstring",
-    "dongli.python-preview"
+    "dongli.python-preview",
+    "maxird.jinja-fold"
   ],
   "scripts": {
     "deploy": "vsce publish --yarn"
